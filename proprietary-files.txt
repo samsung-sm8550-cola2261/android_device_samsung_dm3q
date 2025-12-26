@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from S9180ZHS6DYF1
+# All unpinned blobs are extracted from S918BXXS8DYI3
 
 # ACDB
 vendor/etc/audconf/OPEN/acdb_cal.acdb
@@ -12,6 +12,7 @@ vendor/lib64/hw/audio.primary.kalama.so
 
 # Audio configs
 vendor/etc/audio/sku_kalama/mixer_paths.xml
+vendor/etc/audio_effects_haptic.xml
 vendor/etc/dolby/dax-default.xml
 vendor/etc/situation_audio_policy_volumes_sec.xml
 
@@ -319,7 +320,7 @@ vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|644ffa46a44f101e9342fd747
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf
 
-# RIL - from S918BXXS8DYF2
+# RIL - from dm3qxxx-user 15 AP3A.240905.015.A2 S918BXXS8DYI3 release-keys
 vendor/etc/init/init.vendor.onebinary.rc|b3fab964774039b1f2f6eabf821556919b26369f
 
 # RIL
