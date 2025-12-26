@@ -109,9 +109,6 @@ vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP.mbn
 vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
-vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|3db40123e2fd358766c9f35044a3dd68c9dfcb90
-vendor/firmware/CAMERA_ICP.mbn:odm/firmware/CAMERA_ICP.mbn|a1b2fa4debd96b59cdd00d6f5b72bb60f3b72cae
-vendor/firmware/CAMERA_ICP.mdt:odm/firmware/CAMERA_ICP.mdt|15b968cec8f97e0fe8aab827cef6d994ad6ef97b
 vendor/firmware/ois_mcu_stm32g_fw.bin
 
 # Camera
@@ -299,10 +296,19 @@ vendor/firmware/evass.b18
 vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
-vendor/firmware/evass.b19:odm/firmware/evass.b19|46b8f860179d2f333cd13ee6b90bb36dc975f9e4
-vendor/firmware/evass.mbn:odm/firmware/evass.mbn|4bb30a141e27d938da787ad3e684f77e6114b5d4
-vendor/firmware/evass.mdt:odm/firmware/evass.mdt|2cf28669cd6a85ceec238d190855d3aa5717a206
 vendor/firmware/DM3_S6E3HAE_AMB681AZ01.dat
+
+# Firmware - from dm3qzhx-user 15 AP3A.240905.015.A2 S9180ZHS6DYI3 release-keys
+vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|8cfff6975022b793aad7ef5ec6dabe8165d4874b
+vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|a1b5c78bb442c758b380f5f9b60db77e59a70c53
+vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|5b8e8f6ca626eb3b38387c1f2d8a248ed1f9ed43
+vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|49f391e88ffa1239f759c5df9bde0066968b539f
+vendor/firmware/CAMERA_ICP.mbn:odm/firmware/CAMERA_ICP.mbn|fd6c0aa446ecf196090c58b457c2200752421138
+vendor/firmware/CAMERA_ICP.mdt:odm/firmware/CAMERA_ICP.mdt|56d35700d98fbf8d2e77f6151597409c6c7501ee
+vendor/firmware/evass.b19:odm/firmware/evass.b19|31f2f0058a6883f3d63fab261119a84bb7f970d5
+vendor/firmware/evass.mbn:odm/firmware/evass.mbn|e03baf6ada671a0518eafeba9c4c2035412ab907
+vendor/firmware/evass.mdt:odm/firmware/evass.mdt|6bb84123765f77f737cde2904b51bda33ea1fd37
+vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|27c86cfac3d00188bf7dbcda3f1807f92cdf44fa
 
 # Graphics (Adreno firmware)
 vendor/firmware/a740_sqe.fw
@@ -313,9 +319,6 @@ vendor/firmware/a740_zap.b02
 vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
 vendor/firmware/gmu_gen70200.bin
-vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|8ce4afcc8f7ce0c61d2cb08dc416c2a53ebf0695
-vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|400b633b7d03d4c0230cf7f603fe4af904df440d
-vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|644ffa46a44f101e9342fd74772c0b59082e517d
 
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf
@@ -364,7 +367,6 @@ vendor/firmware/vpu30_4v_16mb_unsigned.mbn
 vendor/firmware/vpu30_4v_unsigned.mbn
 vendor/firmware/vpu33_4v.mbn
 vendor/firmware/vpu33_4v_unsigned.mbn
-vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|d446cd60075524faf0c933ce0422e6a400033f9c
 
 # Vendor firmware
 vendor/firmware/00_generic_xtalk_shape.bin
