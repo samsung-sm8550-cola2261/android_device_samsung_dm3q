@@ -14,6 +14,8 @@ $(call inherit-product, device/samsung/dm3q/device.mk)
 # Inherit from the Lineage configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_HAS_UDFPS := true
+
 PRODUCT_NAME := lineage_dm3q
 PRODUCT_DEVICE := dm3q
 PRODUCT_BRAND := Samsung
