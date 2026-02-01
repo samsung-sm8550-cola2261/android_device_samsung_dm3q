@@ -298,6 +298,11 @@ vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
 vendor/firmware/DM3_S6E3HAE_AMB681AZ01.dat
 
+# Fingerprint
+vendor/lib64/libsfp_sensor.so
+vendor/lib64/libqfp_sensortest.so
+vendor/lib64/libsfp_teegw.so
+
 # Firmware - from dm3qzhx-user 15 AP3A.240905.015.A2 S9180ZHS6DYI3 release-keys
 vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|8cfff6975022b793aad7ef5ec6dabe8165d4874b
 vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|a1b5c78bb442c758b380f5f9b60db77e59a70c53
@@ -333,6 +338,7 @@ vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 vendor/etc/init/vendor.samsung.rild.rc
 
 # Sensors config
+vendor/etc/sensors/config/sns_gyro_cal.json
 vendor/etc/sensors/config/kailua_ak991x_1.json
 vendor/etc/sensors/config/kailua_ak991x_2.json
 vendor/etc/sensors/config/kailua_ak991x_3.json
