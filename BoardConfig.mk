@@ -56,8 +56,9 @@ TARGET_KERNEL_EXT_MODULES := \
 # Partitions
 BOARD_SUPER_PARTITION_SIZE := 12392071168
 
-# Vendor props
+# Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 
 # Include the proprietary files BoardConfig.
 include vendor/samsung/dm3q/BoardConfigVendor.mk
