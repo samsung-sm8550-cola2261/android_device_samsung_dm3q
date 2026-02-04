@@ -262,7 +262,9 @@ qnoc-qos.ko
 sec_class.ko
 sec_key_notifier.ko
 sec_log_buf.ko
+sec_qc_rbcmd.ko
 sec_reboot_cmd.ko
+sec_qc_qcom_reboot_reason.ko
 switch_class.ko
 switch_gpio.ko
 pmic_class.ko
