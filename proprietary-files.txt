@@ -332,7 +332,7 @@ vendor/firmware/gmu_gen70200.bin
 vendor/lib64/libqc2audio_hwaudiocodec.so
 
 # NFC
-vendor/etc/nfc/libnfc-nxp_RF.conf
+vendor/etc/nfc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 
 # RIL - from dm3qxxx-user 15 AP3A.240905.015.A2 S918BXXS8DYI3 release-keys
 vendor/etc/init/init.vendor.onebinary.rc|b3fab964774039b1f2f6eabf821556919b26369f
