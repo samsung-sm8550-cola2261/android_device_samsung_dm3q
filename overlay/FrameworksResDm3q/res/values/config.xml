@@ -1389,7 +1389,7 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string name="config_mainBuiltInDisplayCutout" translatable="false">M 0,0 H -9.466666666666667 V 26.66666666666667‬ H 9.466666666666667 V 0 H 0 Z @dp</string>
+    <string name="config_mainBuiltInDisplayCutout" translatable="false">M 0 0 H -37 V 98 H 37 V 0 H 0 Z</string>
 
     <!-- Whether the Unprocessed audio source supports the required frequency range and level -->
     <bool name="config_supportAudioSourceUnprocessed">false</bool>
