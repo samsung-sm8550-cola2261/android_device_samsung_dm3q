@@ -362,9 +362,6 @@ vendor/lib64/sensors.flicker.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
 
-# Thermal engine
-vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
-
 # Touchscreen firmware
 vendor/firmware/tsp_stm/fts2ba61y_dm3q.bin
 
