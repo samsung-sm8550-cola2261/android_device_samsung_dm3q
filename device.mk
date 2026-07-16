@@ -17,6 +17,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 3088
 TARGET_SCREEN_WIDTH := 1440
 
+# Display config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947093241269891.xml
+
 # Init
 PRODUCT_PACKAGES += \
     init.dm3q.rc
