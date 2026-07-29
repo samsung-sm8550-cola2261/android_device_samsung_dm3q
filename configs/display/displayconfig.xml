@@ -124,4 +124,17 @@
         <type>com.samsung.sensor.auto_brightness</type>
         <name>STK33F11 Auto Brightness Sensor</name>
     </lightSensor>
+
+    <densityMapping>
+        <density>
+            <height>2316</height>
+            <width>1080</width>
+            <density>337</density>
+        </density>
+        <density>
+            <height>3088</height>
+            <width>1440</width>
+            <density>450</density>
+        </density>
+    </densityMapping>
 </displayConfiguration>
