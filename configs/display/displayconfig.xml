@@ -61,36 +61,41 @@
     <highBrightnessMode enabled="true">
         <!-- Normal max is backlight 255 / 500 nits; above is extended/HBM (stock max 612). -->
         <transitionPoint>0.416667</transitionPoint>
+        <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
         <minimumLux>3000</minimumLux>
         <timing>
-            <timeWindowSecs>0</timeWindowSecs>
-            <timeMaxSecs>0</timeMaxSecs>
-            <timeMinSecs>0</timeMinSecs>
+            <timeWindowSecs>1800</timeWindowSecs>
+            <timeMaxSecs>300</timeMaxSecs>
+            <timeMinSecs>60</timeMinSecs>
         </timing>
         <sdrHdrRatioMap>
             <point>
                 <sdrNits>1.0</sdrNits>
-                <hdrRatio>1.0</hdrRatio>
+                <hdrRatio>10.0</hdrRatio>
             </point>
             <point>
-                <sdrNits>2.0</sdrNits>
-                <hdrRatio>2.0</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>80.0</sdrNits>
-                <hdrRatio>4.0</hdrRatio>
+                <sdrNits>10.0</sdrNits>
+                <hdrRatio>6.0</hdrRatio>
             </point>
             <point>
                 <sdrNits>100.0</sdrNits>
-                <hdrRatio>5.0</hdrRatio>
+                <hdrRatio>2.0</hdrRatio>
             </point>
             <point>
-                <sdrNits>300.0</sdrNits>
-                <hdrRatio>5.0</hdrRatio>
+                <sdrNits>150.0</sdrNits>
+                <hdrRatio>3.0</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>200.0</sdrNits>
+                <hdrRatio>4.0</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>400.0</sdrNits>
+                <hdrRatio>3.0</hdrRatio>
             </point>
             <point>
                 <sdrNits>500.0</sdrNits>
-                <hdrRatio>3.0</hdrRatio>
+                <hdrRatio>2.4</hdrRatio>
             </point>
             <point>
                 <sdrNits>1200.0</sdrNits>
