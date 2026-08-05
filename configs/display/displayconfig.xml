@@ -129,12 +129,12 @@
         <density>
             <height>2316</height>
             <width>1080</width>
-            <density>337</density>
+            <density>450</density>
         </density>
         <density>
             <height>3088</height>
             <width>1440</width>
-            <density>450</density>
+            <density>600</density>
         </density>
     </densityMapping>
 </displayConfiguration>
